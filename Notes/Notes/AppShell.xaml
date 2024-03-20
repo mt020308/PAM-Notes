@@ -18,6 +18,10 @@
         Title="Sobre o app"
         ContentTemplate="{DataTemplate local:AboutPage}"
         Route="AboutPage" />
-    
+
+    <ShellContent
+        Title="Anotações"
+        ContentTemplate="{DataTemplate local:NotesPage}"
+        Route="NotesPage"/>
     </TabBar>
 </Shell>
